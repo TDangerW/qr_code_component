@@ -1,0 +1,49 @@
+body {
+    background-color: rgb(220, 229, 238);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 97vh;
+}
+
+.hero {
+    width: 300px;
+    height: fit-content;
+    padding: 25px;
+    border-radius: 25px;
+    background-color: white;
+}
+
+.image {
+    border-radius: 25px;
+    width: 300px;
+}
+
+.description {
+    text-align: center;
+    margin: 10px 0px;
+}
+
+.title {
+    font-family: 'Open Sans', sans-serif;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.subtitle {
+    font-family: 'Open Sans', sans-serif;
+    font-size: large;
+    margin-top: 15px;
+    color: rgb(160, 160, 160);
+}
+
+.attribution {
+    margin-top: 25px;
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
